@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Fri May  3 11:38:57 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : compression
+Top-level Entity Name : nios_handler
+Family : Cyclone IV GX
+Total logic elements : 3,236
+    Total combinational functions : 2,891
+    Dedicated logic registers : 1,550
+Total registers : 1550
+Total pins : 67
+Total virtual pins : 0
+Total memory bits : 1,649,664
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 1

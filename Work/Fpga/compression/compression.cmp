@@ -1,0 +1,50 @@
+	component compression is
+		port (
+			clk_clk          : in    std_logic                     := 'X';             -- clk
+			leds_w_export    : out   std_logic_vector(7 downto 0);                     -- export
+			line1_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line1_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line1_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line1_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line2_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line2_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line2_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line2_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line3_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line3_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line3_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line3_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line4_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line4_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line4_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line4_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line5_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line5_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line5_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line5_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line6_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line6_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line6_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line6_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line7_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line7_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line7_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line7_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line8_1_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line8_1_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			line8_2_in_port  : in    std_logic_vector(31 downto 0) := (others => 'X'); -- in_port
+			line8_2_out_port : out   std_logic_vector(31 downto 0);                    -- out_port
+			reset_reset_n    : in    std_logic                     := 'X';             -- reset_n
+			sdram_addr       : out   std_logic_vector(11 downto 0);                    -- addr
+			sdram_ba         : out   std_logic_vector(1 downto 0);                     -- ba
+			sdram_cas_n      : out   std_logic;                                        -- cas_n
+			sdram_cke        : out   std_logic;                                        -- cke
+			sdram_cs_n       : out   std_logic;                                        -- cs_n
+			sdram_dq         : inout std_logic_vector(31 downto 0) := (others => 'X'); -- dq
+			sdram_dqm        : out   std_logic_vector(3 downto 0);                     -- dqm
+			sdram_ras_n      : out   std_logic;                                        -- ras_n
+			sdram_we_n       : out   std_logic;                                        -- we_n
+			sdram_pll_clk    : out   std_logic                                         -- clk
+		);
+	end component compression;
+

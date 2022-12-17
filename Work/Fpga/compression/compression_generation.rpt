@@ -1,0 +1,246 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/simmu/Documents/vlsi_project/Digital_Image_Processing_Project_Reference/compression/compression.qsys --block-symbol-file --output-directory=/home/simmu/Documents/vlsi_project/Digital_Image_Processing_Project_Reference/compression/compression --family="Cyclone IV GX" --part=EP4CGX110CF23C7
+Progress: Loading compression/compression.qsys
+Progress: Reading input file
+Progress: Adding LIne2_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module LIne2_2
+Progress: Adding Line1_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line1_1
+Progress: Adding Line1_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line1_2
+Progress: Adding Line2_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line2_1
+Progress: Adding Line3_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line3_1
+Progress: Adding Line3_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line3_2
+Progress: Adding Line4_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line4_1
+Progress: Adding Line4_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line4_2
+Progress: Adding Line5_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line5_1
+Progress: Adding Line5_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line5_2
+Progress: Adding Line6_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line6_1
+Progress: Adding Line6_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line6_2
+Progress: Adding Line7_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line7_1
+Progress: Adding Line7_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line7_2
+Progress: Adding Line8_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line8_1
+Progress: Adding Line8_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line8_2
+Progress: Adding altpll_0 [altpll 18.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding leds [altera_avalon_pio 18.1]
+Progress: Parameterizing module leds
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: compression.LIne2_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line1_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line1_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line2_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line3_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line3_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line4_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line4_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line5_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line5_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line6_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line6_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line7_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line7_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line8_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line8_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: compression.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: compression.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: compression.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/simmu/Documents/vlsi_project/Digital_Image_Processing_Project_Reference/compression/compression.qsys --synthesis=VERILOG --output-directory=/home/simmu/Documents/vlsi_project/Digital_Image_Processing_Project_Reference/compression/compression/synthesis --family="Cyclone IV GX" --part=EP4CGX110CF23C7
+Progress: Loading compression/compression.qsys
+Progress: Reading input file
+Progress: Adding LIne2_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module LIne2_2
+Progress: Adding Line1_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line1_1
+Progress: Adding Line1_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line1_2
+Progress: Adding Line2_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line2_1
+Progress: Adding Line3_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line3_1
+Progress: Adding Line3_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line3_2
+Progress: Adding Line4_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line4_1
+Progress: Adding Line4_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line4_2
+Progress: Adding Line5_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line5_1
+Progress: Adding Line5_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line5_2
+Progress: Adding Line6_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line6_1
+Progress: Adding Line6_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line6_2
+Progress: Adding Line7_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line7_1
+Progress: Adding Line7_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line7_2
+Progress: Adding Line8_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line8_1
+Progress: Adding Line8_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module Line8_2
+Progress: Adding altpll_0 [altpll 18.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding leds [altera_avalon_pio 18.1]
+Progress: Parameterizing module leds
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: compression.LIne2_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line1_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line1_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line2_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line3_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line3_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line4_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line4_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line5_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line5_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line6_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line6_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line7_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line7_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line8_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.Line8_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: compression.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: compression.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: compression.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: compression.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: compression: Generating compression "compression" for QUARTUS_SYNTH
+Info: LIne2_2: Starting RTL generation for module 'compression_LIne2_2'
+Info: LIne2_2:   Generation command is [exec /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=compression_LIne2_2 --dir=/tmp/alt8019_617427284731109815.dir/0002_LIne2_2_gen/ --quartus_dir=/home/simmu/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8019_617427284731109815.dir/0002_LIne2_2_gen//compression_LIne2_2_component_configuration.pl  --do_build_sim=0  ]
+Info: LIne2_2: Done RTL generation for module 'compression_LIne2_2'
+Info: LIne2_2: "compression" instantiated altera_avalon_pio "LIne2_2"
+Info: altpll_0: "compression" instantiated altpll "altpll_0"
+Info: cpu: "compression" instantiated altera_nios2_gen2 "cpu"
+Info: jtag_uart: Starting RTL generation for module 'compression_jtag_uart'
+Info: jtag_uart:   Generation command is [exec /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=compression_jtag_uart --dir=/tmp/alt8019_617427284731109815.dir/0005_jtag_uart_gen/ --quartus_dir=/home/simmu/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8019_617427284731109815.dir/0005_jtag_uart_gen//compression_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'compression_jtag_uart'
+Info: jtag_uart: "compression" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: leds: Starting RTL generation for module 'compression_leds'
+Info: leds:   Generation command is [exec /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=compression_leds --dir=/tmp/alt8019_617427284731109815.dir/0006_leds_gen/ --quartus_dir=/home/simmu/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8019_617427284731109815.dir/0006_leds_gen//compression_leds_component_configuration.pl  --do_build_sim=0  ]
+Info: leds: Done RTL generation for module 'compression_leds'
+Info: leds: "compression" instantiated altera_avalon_pio "leds"
+Info: onchip_memory2_0: Starting RTL generation for module 'compression_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=compression_onchip_memory2_0 --dir=/tmp/alt8019_617427284731109815.dir/0007_onchip_memory2_0_gen/ --quartus_dir=/home/simmu/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8019_617427284731109815.dir/0007_onchip_memory2_0_gen//compression_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'compression_onchip_memory2_0'
+Info: onchip_memory2_0: "compression" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: sdram_controller: Starting RTL generation for module 'compression_sdram_controller'
+Info: sdram_controller:   Generation command is [exec /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /home/simmu/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=compression_sdram_controller --dir=/tmp/alt8019_617427284731109815.dir/0008_sdram_controller_gen/ --quartus_dir=/home/simmu/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt8019_617427284731109815.dir/0008_sdram_controller_gen//compression_sdram_controller_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram_controller: Done RTL generation for module 'compression_sdram_controller'
+Info: sdram_controller: "compression" instantiated altera_avalon_new_sdram_controller "sdram_controller"
+Info: sysid_qsys: "compression" instantiated altera_avalon_sysid_qsys "sysid_qsys"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_019: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_020: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_021: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_022: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "compression" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "compression" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "compression" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'compression_cpu_cpu'
+Info: cpu:   Generation command is [exec /home/simmu/intelFPGA_lite/18.1/quartus/linux64//eperlcmd -I /home/simmu/intelFPGA_lite/18.1/quartus/linux64//perl/lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/simmu/intelFPGA_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=compression_cpu_cpu --dir=/tmp/alt8019_617427284731109815.dir/0012_cpu_gen/ --quartus_bindir=/home/simmu/intelFPGA_lite/18.1/quartus/linux64/ --verilog --config=/tmp/alt8019_617427284731109815.dir/0012_cpu_gen//compression_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2019.05.03 11:31:24 (*) Starting Nios II generation
+Info: cpu: # 2019.05.03 11:31:24 (*)   Checking for plaintext license.
+Info: cpu: # 2019.05.03 11:31:25 (*)   Couldn't query license setup in Quartus directory /home/simmu/intelFPGA_lite/18.1/quartus/linux64/
+Info: cpu: # 2019.05.03 11:31:25 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2019.05.03 11:31:25 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2019.05.03 11:31:25 (*)   Plaintext license not found.
+Info: cpu: # 2019.05.03 11:31:25 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2019.05.03 11:31:25 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2019.05.03 11:31:25 (*)   Creating all objects for CPU
+Info: cpu: # 2019.05.03 11:31:26 (*)   Generating RTL from CPU objects
+Info: cpu: # 2019.05.03 11:31:26 (*)   Creating plain-text RTL
+Info: cpu: # 2019.05.03 11:31:26 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'compression_cpu_cpu'
+Info: cpu: "cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file /home/simmu/Documents/vlsi_project/Digital_Image_Processing_Project_Reference/compression/compression/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/simmu/Documents/vlsi_project/Digital_Image_Processing_Project_Reference/compression/compression/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/simmu/Documents/vlsi_project/Digital_Image_Processing_Project_Reference/compression/compression/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: compression: Done "compression" with 32 modules, 45 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

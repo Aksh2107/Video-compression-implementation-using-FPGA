@@ -1,0 +1,172 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 11:29:36  May 03, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		compression_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+set_location_assignment PIN_AG7 -to sdram_addr[0]
+set_location_assignment PIN_AJ7 -to sdram_addr[1]
+set_location_assignment PIN_AG8 -to sdram_addr[2]
+set_location_assignment PIN_AH8 -to sdram_addr[3]
+set_location_assignment PIN_AE16 -to sdram_addr[4]
+set_location_assignment PIN_AF16 -to sdram_addr[5]
+set_location_assignment PIN_AE14 -to sdram_addr[6]
+set_location_assignment PIN_AE15 -to sdram_addr[7]
+set_location_assignment PIN_AE13 -to sdram_addr[8]
+set_location_assignment PIN_AE12 -to sdram_addr[9]
+set_location_assignment PIN_AH6 -to sdram_addr[10]
+set_location_assignment PIN_AE11 -to sdram_addr[11]
+set_location_assignment PIN_AE10 -to sdram_addr[12]
+set_location_assignment PIN_AA15 -to sdram_dq[15]
+set_location_assignment PIN_AA12 -to sdram_dq[14]
+set_location_assignment PIN_AB11 -to sdram_dq[13]
+set_location_assignment PIN_AA13 -to sdram_dq[12]
+set_location_assignment PIN_AG9 -to sdram_dq[11]
+set_location_assignment PIN_AF12 -to sdram_dq[10]
+set_location_assignment PIN_AF13 -to sdram_dq[9]
+set_location_assignment PIN_AB13 -to sdram_dq[8]
+set_location_assignment PIN_AF9 -to sdram_dq[7]
+set_location_assignment PIN_AF6 -to sdram_dq[6]
+set_location_assignment PIN_AF7 -to sdram_dq[5]
+set_location_assignment PIN_AE7 -to sdram_dq[4]
+set_location_assignment PIN_AE8 -to sdram_dq[3]
+set_location_assignment PIN_AE9 -to sdram_dq[2]
+set_location_assignment PIN_AD9 -to sdram_dq[1]
+set_location_assignment PIN_AD10 -to sdram_dq[0]
+set_location_assignment PIN_AH5 -to sdram_ba[0]
+set_location_assignment PIN_AG6 -to sdram_ba[1]
+set_location_assignment PIN_AF10 -to sdram_dqm[0]
+set_location_assignment PIN_AB14 -to sdram_dqm[1]
+set_location_assignment PIN_AH15 -to sdram_dqm[2]
+set_location_assignment PIN_AH10 -to sdram_dqm[3]
+set_location_assignment PIN_AJ4 -to sdram_cas_n
+set_location_assignment PIN_AD6 -to sdram_cke
+set_location_assignment PIN_AG5 -to sdram_cs_n
+set_location_assignment PIN_AK4 -to sdram_ras_n
+set_location_assignment PIN_AK3 -to sdram_we_n
+set_location_assignment PIN_AE6 -to sdram_clk
+
+set_location_assignment PIN_AJ16 -to clk
+set_location_assignment PIN_AA22 -to leds_w_export[7]
+set_location_assignment PIN_Y25 -to leds_w_export[6]
+set_location_assignment PIN_Y22 -to leds_w_export[5]
+set_location_assignment PIN_W26 -to leds_w_export[4]
+set_location_assignment PIN_F26 -to leds_w_export[3]
+set_location_assignment PIN_F27 -to leds_w_export[2]
+set_location_assignment PIN_AB25 -to leds_w_export[1]
+set_location_assignment PIN_AA25 -to leds_w_export[0]
+set_location_assignment PIN_AA26 -to reset
+
+set_location_assignment PIN_AK5 -to sdram_dq[31]
+set_location_assignment PIN_AJ6 -to sdram_dq[30]
+set_location_assignment PIN_AK6 -to sdram_dq[29]
+set_location_assignment PIN_AH7 -to sdram_dq[28]
+set_location_assignment PIN_AK7 -to sdram_dq[27]
+set_location_assignment PIN_AG10 -to sdram_dq[26]
+set_location_assignment PIN_AK8 -to sdram_dq[25]
+set_location_assignment PIN_AH9 -to sdram_dq[24]
+set_location_assignment PIN_AH14 -to sdram_dq[23]
+set_location_assignment PIN_AG14 -to sdram_dq[22]
+set_location_assignment PIN_AG13 -to sdram_dq[21]
+set_location_assignment PIN_AH13 -to sdram_dq[20]
+set_location_assignment PIN_AG12 -to sdram_dq[19]
+set_location_assignment PIN_AH12 -to sdram_dq[18]
+set_location_assignment PIN_AG11 -to sdram_dq[17]
+set_location_assignment PIN_AH11 -to sdram_dq[16]
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE EP4CGX150DF31C7
+set_global_assignment -name TOP_LEVEL_ENTITY nios_handler
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:29:36  MAY 03, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE nios_handler.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_sysid_qsys.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_sdram_controller.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_onchip_memory2_0.v
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_rsp_mux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_rsp_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_rsp_demux_003.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_rsp_demux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_router_005.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_router_002.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_router_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_router.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_cmd_mux_003.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_cmd_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_cmd_demux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_cmd_demux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0_avalon_st_adapter.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_mm_interconnect_0.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_LIne2_2.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_leds.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_jtag_uart.v
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/compression_irq_mapper.sv
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_cpu_cpu_test_bench.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_cpu_cpu_debug_slave_wrapper.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_cpu_cpu_debug_slave_tck.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_cpu_cpu_debug_slave_sysclk.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_cpu_cpu.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_cpu.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/compression_altpll_0.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/altera_reset_synchronizer.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/altera_reset_controller.v
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/altera_merlin_slave_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/altera_merlin_slave_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/altera_merlin_master_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/altera_merlin_master_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+set_global_assignment -name SYSTEMVERILOG_FILE compression/synthesis/submodules/altera_merlin_arbitrator.sv
+set_global_assignment -name VERILOG_FILE compression/synthesis/submodules/altera_avalon_sc_fifo.v
+set_global_assignment -name VERILOG_FILE compression/synthesis/compression.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ACTIVE_SERIAL_CLOCK FREQ_40MHZ
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
