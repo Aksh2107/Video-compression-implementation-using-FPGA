@@ -1,20 +1,3 @@
--- register settings for the OV7670 camera (partially from OV7670.c
--- in the Linux Kernel)
---
--- this is tricky; based on my experience, using an OV7670 camera module
--- has a LOT to do with how we set/program the camera's registers;
--- it seems that the register values here get it right; thanks to the guys
--- who managed to dig this up (consequence of the rather poor datasheet
--- from OmniVision): Mike Field, Christopher Wilson;
--- 
--- Notes:
--- 1) Regarding the WITH SELECT Statement:
---      WITH sreg(sel) SELECT
---           finished <= '1' when x"FFFF",
---                       '0' when others;
--- This means the transfer is finished the first time sreg ends up as "FFFF",  
--- i.e. Need Sequential Addresses in the below case statements 
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
